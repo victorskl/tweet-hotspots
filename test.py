@@ -1,4 +1,5 @@
 import unittest
+
 import core
 from model import Coord
 
@@ -8,12 +9,10 @@ def _init():
 
 
 class AppTest(unittest.TestCase):
-
     def test_upper(self):
         self.assertEqual('foo'.upper(), 'FOO')
 
     def test_super_grid_bound(self):
-
         _init()
 
         coord_ok = Coord(144.8354, -37.826534)
