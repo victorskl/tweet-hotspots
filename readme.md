@@ -7,6 +7,7 @@ Programming use is Python and `mpi4py` as a key module.
 ### Slurm useful commands
  
 ```bash
-squeue -u <ur_username>
-scontrol show jobid -dd <ur_job_id>
+squeue -u [ur_username]
+scontrol show jobid -dd [ur_job_id]
+scancel [ur_job_id]
 ```

@@ -12,6 +12,5 @@ echo 'TweetHotspotsApp_2n8c'
 echo 'Running: 2 node 8 cores'
 echo ' '
 
-module load OpenMPI
-module load Python
+module load Python/3.4.3-goolf-2015a
 mpirun -np 8 python app.py

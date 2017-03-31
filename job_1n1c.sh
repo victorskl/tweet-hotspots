@@ -12,6 +12,5 @@ echo 'TweetHotspotsApp_1n1c'
 echo 'Running: 1 node 1 core'
 echo ' '
 
-module load OpenMPI
-module load Python
+module load Python/3.4.3-goolf-2015a
 mpirun -np 1 python app.py
