@@ -3,7 +3,7 @@
 
 *.pyc
 
-.data
+data
 *.json
 *.log
 *.out
