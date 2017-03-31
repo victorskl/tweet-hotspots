@@ -159,7 +159,7 @@ def main():
             logging.info('Initiating parallel geo-processing...')
 
     grid_json = 'data/melbGrid.json'
-    twitter_json = 'data/smallTwitter.json'
+    twitter_json = 'data/bigTwitter.json'
 
     core.init_grid(grid_json)
 
