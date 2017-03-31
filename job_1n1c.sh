@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=TweetHotspotsApp_1n1c
 #SBATCH -p cloud
-#SBATCH --time=00:15:59
+#SBATCH --time=00:30:59
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1

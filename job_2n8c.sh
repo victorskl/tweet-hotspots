@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=TweetHotspotsApp_2n8c
 #SBATCH -p physical
-#SBATCH --time=00:15:59
+#SBATCH --time=00:30:59
 #SBATCH --nodes=2
 #SBATCH --ntasks=4
 #SBATCH --cpus-per-task=1
