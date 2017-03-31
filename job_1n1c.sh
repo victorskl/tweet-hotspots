@@ -5,11 +5,10 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 
-echo hostname
+echo $HOSTNAME
 echo 'Number of cpu on node: ' $SLURM_CPUS_ON_NODE
-echo ' '
-
-echo 'Run: 1 node 1 core'
+echo 'TweetHotspotsApp_1n1c'
+echo 'Running: 1 node 1 core'
 echo ' '
 
 module load Python/3.5.2-intel-2016.u3
