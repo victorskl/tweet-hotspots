@@ -13,4 +13,4 @@ echo 'Run: 1 node 1 core'
 echo ' '
 
 module load Python/3.5.2-intel-2016.u3
-mpirun -np 4 python app.py
+mpirun -np 1 python app.py

@@ -13,4 +13,4 @@ echo 'Run: 2 node 8 cores'
 echo ' '
 
 module load Python/3.5.2-intel-2016.u3
-mpirun -np 4 python app.py
+mpirun -np 8 python app.py
