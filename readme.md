@@ -30,3 +30,16 @@ squeue -u [ur_username]
 scontrol show jobid -dd [ur_job_id]
 scancel [ur_job_id]
 ```
+
+---
+This assignment work is done for _COMP90024 Cluster and Cloud Computing_ assignment 1 assessment of 2017 SM1, The University of Melbourne. You can read [the report](SanKhoLin_829463_COMP90024_Project1_Report.pdf) for background context, though it discusses more on the data that I have worked with. You may also want to read the related tutorials [`mpi4py-tute`](https://github.com/victorskl/mpi4py-tute) and [`mpjexpress-tute`](https://github.com/victorskl/mpjexpress-tute). The implementation still has room for improvement. You may wish to cite this work as follow.
+
+LaTeX/BibTeX:
+
+    @misc{sanl1,
+        author    = {Lin, San Kho},
+        title     = {Tweet Hotspots - HPC Twitter GeoProcessing},
+        year      = {2017},
+        url       = {https://github.com/victorskl/tweet-hotspots},
+        urldate   = {yyyy-mm-dd}
+    }
